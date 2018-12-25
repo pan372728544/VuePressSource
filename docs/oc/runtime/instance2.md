@@ -1,5 +1,5 @@
 
-# Object-C对象的本质(下)
+# Object-C - 对象的本质(下)
 
 OC对象的分类，对象的isa指针指向哪里，superClass指针，OC的类信息存放在哪里？
 

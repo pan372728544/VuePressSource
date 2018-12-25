@@ -17,42 +17,49 @@ module.exports = {
       ],
        '/oc/kvo/': [
         '',
-        '3',    
-        '4',  
+        'kvo',
       ],
       '/oc/runloop/': [
         '',
-        '6',    
-        '7',  
       ],
 
 	 	/*Swift*/
 	 '/swift/': [
 	        '',
-	        '3',    
-	        '4',  
+
 	      ],
 
 	 	/*c/c++*/
 	 '/c/': [
 	        '',
-	        '3',    
-	        '4',  
 	      ],
 	 	/*html*/
-	 '/h5/': [
+	 '/h5/cordova/': [
 	        '',
-	        '3',    
-	        '4',  
 	      ],
 
+    '/h5/css/': [
+          '',
+        ],
 
+    '/h5/html/': [
+          '',
+        ],
+    '/h5/reactnative/': [
+          '',
+        ],
+    '/h5/weex/': [
+          '',
+        ],
+    '/h5/js/': [
+          '',
+        ],
 
     },
 
     // 设置侧栏深度
     sidebarDepth: 2,
-    lastUpdated: 'Last Updated',
+    lastUpdated: '更新时间',
   },
 }
 

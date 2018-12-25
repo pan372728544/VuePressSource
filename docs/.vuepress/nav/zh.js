@@ -16,27 +16,27 @@ module.exports = [
       {
         text: 'Swift',
         items: [
-           { text: 'Runtime', link: '/oc/runtime/' },
-           { text: 'KVO', link: '/oc/kvo/' },
-           { text: 'RunLoop', link: '/oc/runloop/' }
+           { text: 'Swift基础', link: '/swift/' },
         ]
       },
       /*C/C++*/
       {
         text: 'C/C++',
         items: [
-           { text: 'Runtime', link: '/oc/runtime/' },
-           { text: 'KVO', link: '/oc/kvo/' },
-           { text: 'RunLoop', link: '/oc/runloop/' }
+           { text: 'C/C++基础', link: '/c/' },
+
         ]
       },
       /*HTML*/
       {
-        text: 'HTML',
+        text: 'Multi-Platform',
         items: [
-           { text: 'Runtime', link: '/oc/runtime/' },
-           { text: 'KVO', link: '/oc/kvo/' },
-           { text: 'RunLoop', link: '/oc/runloop/' }
+           { text: 'React-native', link: '/h5/reactnative/' },
+           { text: 'Cordova', link: '/h5/cordova/' },
+           { text: 'weex', link: '/h5/weex/' },
+           { text: 'HTML', link: '/h5/html/' },
+           { text: 'JS', link: '/h5/js/' },
+           { text: 'CSS', link: '/h5/css/' }
         ]
       },
 
