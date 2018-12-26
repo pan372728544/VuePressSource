@@ -2,6 +2,8 @@ module.exports = {
   title: 'Hello VuePress',  // 设置网站标题
   description : 'Just playing around', // 网站描述
 
+   plugins: ['@vuepress/back-to-top'], //返回到顶部插件
+
    themeConfig: {
     //  设置导航栏
     nav: require('./nav/zh'),
@@ -21,6 +23,7 @@ module.exports = {
       ],
       '/oc/runloop/': [
         '',
+        'runloop'
       ],
 
 	 	/*Swift*/
@@ -47,6 +50,7 @@ module.exports = {
         ],
     '/h5/reactnative/': [
           '',
+          'react',
         ],
     '/h5/weex/': [
           '',
