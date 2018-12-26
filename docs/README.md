@@ -1,6 +1,6 @@
 ---
 home: ture
-heroImage: /hero2.png
+heroImage: /hero2.jpg
 heroText: VuePress
 tagline: Vue 驱动的静态网站生成器
 actionText: 快速上手 →
