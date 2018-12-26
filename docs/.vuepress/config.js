@@ -1,21 +1,39 @@
 module.exports = {
-  title: 'Hello VuePress',  // 设置网站标题
-  description : 'Just playing around', // 网站描述
-
-   plugins: ['@vuepress/back-to-top'], //返回到顶部插件
+  // 网站标题
+  title: "Pan's Blog",  
+  // 网站描述
+  description : 'Just playing around', 
 
    themeConfig: {
     //  设置导航栏
     nav: require('./nav/zh'),
 
-
     // 设置侧栏
 	  sidebar: {
 	  	/*Object-c*/
       '/oc/runtime/': [
-        '',
-        'instance1',    
-        'instance2',  
+      
+      // oc群组
+          {
+              title: 'Object-c之isa指针',
+              collapsable: true,
+              children: [
+                '/oc/runtime/',
+              ]
+            },
+            {
+              title: 'Object-c之对象的本质',
+              collapsable: true,
+              children: [
+                '/oc/runtime/instance1',
+                '/oc/runtime/instance2',
+              ]
+            },
+
+
+
+
+
       ],
        '/oc/kvo/': [
         '',

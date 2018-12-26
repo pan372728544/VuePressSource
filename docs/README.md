@@ -1,6 +1,6 @@
 ---
 home: ture
-heroImage: ./hero.png
+heroImage: ./hero2.jpg
 heroText: VuePress
 tagline: Vue 驱动的静态网站生成器
 actionText: 快速上手 →
@@ -14,22 +14,3 @@ features:
   details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
-### 像数 1, 2, 3 一样容易
-
-``` bash
-# 安装
-yarn global add vuepress # 或者：npm install -g vuepress
-
-# 新建一个 markdown 文件
-echo '# Hello VuePress!' > README.md
-
-# 开始写作
-vuepress dev .
-
-# 构建静态文件
-vuepress build .
-```
-
-::: warning 注意
-请确保你的 Node.js 版本 >= 8。
-:::
