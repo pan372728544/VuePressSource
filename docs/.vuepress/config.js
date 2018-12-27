@@ -68,7 +68,12 @@ module.exports = {
         ],
     '/h5/reactnative/': [
           '',
-          'react',
+          'reactnew',
+          'reactxianyou',
+          'reactjichu',
+          'react-flexbox',
+          'reactview',
+          'reactimg',
         ],
     '/h5/weex/': [
           '',
