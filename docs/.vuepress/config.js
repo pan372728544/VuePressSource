@@ -86,7 +86,7 @@ module.exports = {
 
     // 设置侧栏深度
     sidebarDepth: 2,
-    lastUpdated: '更新时间',
+    lastUpdated: 'Last Updated',
   },
 }
 
