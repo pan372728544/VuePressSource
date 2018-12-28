@@ -3,6 +3,7 @@ module.exports = {
   title: "Pan's Blog",  
   // 网站描述
   description : 'Just playing around', 
+  plugins: ['@vuepress/back-to-top'],
 
    themeConfig: {
     //  设置导航栏
