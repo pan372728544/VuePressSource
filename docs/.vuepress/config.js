@@ -78,6 +78,7 @@ module.exports = {
         ],
     '/h5/weex/': [
           '',
+          'weex-start'
         ],
     '/h5/js/': [
           '',
@@ -87,7 +88,7 @@ module.exports = {
 
     // 设置侧栏深度
     sidebarDepth: 2,
-    lastUpdated: 'Last Updated',
+    lastUpdated: '上次更新',
   },
 }
 
