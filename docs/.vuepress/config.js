@@ -91,6 +91,8 @@ module.exports = {
 
      '/h5/flutter/': [
         '',
+        'flutter-develop',
+        'flutter-demo',
       ],
 
     },
