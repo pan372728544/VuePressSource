@@ -93,6 +93,7 @@ module.exports = {
         '',
         'flutter-develop',
         'flutter-demo',
+        'flutter-first',
       ],
 
     },
