@@ -55,6 +55,7 @@ module.exports = {
 	 '/c/': [
 	        '',
 	      ],
+
 	 	/*html*/
 	 '/h5/cordova/': [
 	        '',
@@ -67,6 +68,7 @@ module.exports = {
     '/h5/html/': [
           '',
         ],
+
     '/h5/reactnative/': [
           '',
           'reactnew',
@@ -76,13 +78,20 @@ module.exports = {
           'reactview',
           'reactimg',
         ],
+
     '/h5/weex/': [
           '',
-          'weex-start'
+          'weex-start',
+          'weex-demo',
         ],
+
     '/h5/js/': [
           '',
         ],
+
+     '/h5/flutter/': [
+        '',
+      ],
 
     },
 

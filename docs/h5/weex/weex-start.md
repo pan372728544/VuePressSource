@@ -1,4 +1,4 @@
-# Object-C - WEEX 快速上手
+# WEEX - 快速上手
 
 ## 创建一个 App
 ::: tip

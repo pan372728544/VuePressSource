@@ -32,12 +32,21 @@ module.exports = [
       {
         text: 'Multi-Platform',
         items: [
-           { text: 'React-native', link: '/h5/reactnative/' },
-           { text: 'Cordova', link: '/h5/cordova/' },
-           { text: 'weex', link: '/h5/weex/' },
-           { text: 'HTML', link: '/h5/html/' },
-           { text: 'JS', link: '/h5/js/' },
-           { text: 'CSS', link: '/h5/css/' }
+
+              { text: 'Native Group',items: [  
+                    { text: 'Flutter', link: '/h5/flutter/' },
+                    { text: 'React-native', link: '/h5/reactnative/' },
+                    { text: 'Cordova', link: '/h5/cordova/' },
+                    { text: 'Weex', link: '/h5/weex/' },
+
+              ]},
+
+            { text: 'Web Group',items: [     
+               { text: 'HTML', link: '/h5/html/' },
+               { text: 'CSS', link: '/h5/css/' },
+               { text: 'JS', link: '/h5/js/' },
+
+             ]}
         ]
       },
 
