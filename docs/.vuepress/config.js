@@ -45,6 +45,17 @@ module.exports = {
         'runloop'
       ],
 
+      '/oc/other/': [
+        '',
+        'JLRouter',
+        'git',
+        'aframework',
+        'copy',
+        'Jenkins',
+        'pod',
+        'spec',
+      ],
+
 	 	/*Swift*/
 	 '/swift/': [
 	        '',
@@ -67,6 +78,7 @@ module.exports = {
 
     '/h5/html/': [
           '',
+          'html-1',
         ],
 
     '/h5/reactnative/': [
@@ -94,12 +106,13 @@ module.exports = {
         'flutter-develop',
         'flutter-demo',
         'flutter-first',
+        'flutter-existing',
       ],
 
     },
 
     // 设置侧栏深度
-    sidebarDepth: 2,
+    sidebarDepth: 1,
     lastUpdated: '上次更新',
   },
 }
