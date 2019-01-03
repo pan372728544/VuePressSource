@@ -11,6 +11,7 @@ module.exports = [
            { text: 'KVO', link: '/oc/kvo/' },
            { text: 'RunLoop', link: '/oc/runloop/' },
            { text: 'Other', link: '/oc/other/' },
+           { text: '预留', link: '/oc/other/' },
         ]
       },
 
@@ -18,7 +19,8 @@ module.exports = [
       {
         text: 'Swift',
         items: [
-           { text: 'Swift基础', link: '/swift/' },
+           { text: 'Swift1', link: '/swift/' },
+           { text: 'Swift2', link: '/swift/' },
         ]
       },
       /*C/C++*/
