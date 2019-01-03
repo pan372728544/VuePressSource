@@ -90,17 +90,22 @@ module.exports = {
 	 	/*Swift*/
 	 '/swift/': [
 	        '',
+          'swift1',
+            'swift2',
 
 	      ],
 
 	 	/*c/c++*/
 	 '/c/': [
 	        '',
+          'c',
+          'c1',
 	      ],
 
 	 	/*html*/
 	 '/h5/cordova/': [
 	        '',
+          'cordova'
 	      ],
 
     '/h5/css/': [
@@ -116,7 +121,6 @@ module.exports = {
           '',
           'reactnew',
           'reactxianyou',
-          'reactjichu',
           'react-flexbox',
           'reactview',
           'reactimg',
@@ -124,7 +128,6 @@ module.exports = {
 
     '/h5/weex/': [
           '',
-          'weex-start',
           'weex-demo',
         ],
 
@@ -138,6 +141,10 @@ module.exports = {
         'flutter-demo',
         'flutter-first',
         'flutter-existing',
+      ],
+
+      '/guide/':[
+        '',
       ],
 
     },
