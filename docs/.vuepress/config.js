@@ -85,6 +85,7 @@ module.exports = {
         'Jenkins',
         'pod',
         'spec',
+        'package',
       ],
 
 	 	/*Swift*/
