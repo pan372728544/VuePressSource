@@ -35,8 +35,9 @@ note: Using new build system
 
 
 3）使用 archive 命令生成 .xcarchive 文件;执行完后目录下多了 BuildTest.xcarchive 文件。
-
+``` swift
 xcodebuild archive -project BuildTest.xcodeproj -scheme BuildTest -archivePath ./BuildTest.xcarchive
+```
 
 运行效果：
 
