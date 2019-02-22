@@ -413,4 +413,25 @@ bundleID和mobileprovision_name。其他的key是可以不配置的，如果不�
 
 -allowProvisioningUpdates主要目的是自动更新profile文件，在Xcode自动管理profile的时候用。
 :::
+
+
+
+## 打包分支
+
+1. 在系统管理里面，选择插件管理。
+
+![](./img/0016.png)
+
+2. 然后点击选插件，在右上角输入Git Parameter，找到Git Parameter后点击左下方的的直接安装
+3.  安装后，在任务配置里，配置如下：
+
+
+![](./img/0017.png)
+
+4. 原理管理如下：
+
+![](./img/0018.png)
+
+5. 配置好之后，立即构建会变成 带参数的，可以选择自己的分支进行打包了。
+![](./img/0020.png)
           
