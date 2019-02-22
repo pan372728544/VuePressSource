@@ -231,6 +231,11 @@ echo "\033[32m开始构建项目  \033[0m"
 # 进入项目工程目录
 cd ${project_dir}
 
+
+# pod
+ export LANG=en_US.UTF-8
+ /usr/local/bin/pod install
+
 # 指定输出文件目录不存在则创建
 if [ -d "$export_path" ] ; then
     echo $export_path
