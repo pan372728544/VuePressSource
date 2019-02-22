@@ -86,6 +86,7 @@ module.exports = {
         'pod',
         'spec',
         'package',
+        'autoPackage',
       ],
 
 	 	/*Swift*/
