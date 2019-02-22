@@ -345,6 +345,72 @@ ExportOptions.plist 是shell脚本生成的。
  
  ``` swift
  
- //进入以下目录，双击运行
-/Library/Application Support/Jenkins/Uninstall.command
+  进入以下目录，双击运行
+   /Library/Application Support/Jenkins/Uninstall.command
 ```
+
+
+## 命令讲解
+
+1. clean工程
+
+以单工程项目为例(wordspace结构是相似的)，参数配置完成之后，clean下工程，用以清除缓存，保证我们的项目是纯净的。
+跟我们在Xcode中Product->Clean这个命令是一样的功能。
+
+``` swift
+
+xcodebuild clean -project ${project_name}.xcodeproj \
+                 -scheme ${scheme_name} \
+                 -configuration ${build_configuration}
+
+```
+::: tip
+project_name就是我们之前配置的工程的名称，
+
+scheme_name就是之前配置的工程的target名称
+
+build_configuration为之前配置的设置，Debug或者Release
+:::
+
+2. archive工程
+
+build工程，然后archive到一个文件夹里面。
+``` swift
+
+xcodebuild archive -project ${project_name}.xcodeproj \
+                   -scheme ${scheme_name} \
+                   -configuration ${build_configuration} \
+                   -archivePath ${export_archive_path}
+                   
+```
+
+其中， export_archive_path就是我们存放archive结果的文件夹。
+这条命令执行以后，会在指定的位置生成.xcarchive文件（其实这个是文件夹来的。里面会有.app包和dSYM符号文件等内容）
+
+
+3. exportArchive,从xcarchive中导出ipa包
+
+将刚才archive出来的.xcarchive文件，导出成一个ipa包。
+
+``` swift
+
+xcodebuild  -exportArchive \
+            -archivePath ${export_archive_path} \
+            -exportPath ${export_ipa_path} \
+            -exportOptionsPlist ${export_options_plist_path} \
+            -allowProvisioningUpdates
+            
+```
+
+::: tip
+export_archive_path就是刚才导出.xcarchive文件路径
+
+export_ipa_path是要导出的ipa文件的文件夹路径
+
+export_options_plist_path这是一个plist配置文件路径。这个plist配置文件是必须的，不加的话会报错的。经过我的测试发现，主要是需要配置method这个key。如果是手动管理的话，还需要配置
+
+bundleID和mobileprovision_name。其他的key是可以不配置的，如果不配置的话，会自动根据项目里面的配置进行生成。另外，这个文件我在脚本中用PlistBuddy命令直接生成了，不需要用户自己指定文件。
+
+-allowProvisioningUpdates主要目的是自动更新profile文件，在Xcode自动管理profile的时候用。
+:::
+          
