@@ -87,13 +87,14 @@ module.exports = {
         'spec',
         'package',
         'autoPackage',
+        'spec22',
       ],
 
 	 	/*Swift*/
 	 '/swift/': [
 	        '',
           'swift1',
-            'swift2',
+           'swift2',
 
 	      ],
 
