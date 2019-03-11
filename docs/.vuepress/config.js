@@ -88,6 +88,7 @@ module.exports = {
         'package',
         'autoPackage',
         'spec22',
+        'time',
       ],
 
 	 	/*Swift*/
