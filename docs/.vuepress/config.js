@@ -158,6 +158,9 @@ module.exports = {
     sidebarDepth: 1,
     lastUpdated: '上次更新',
   },
+  markdown: {
+    lineNumbers: true
+  },
 }
 
 
