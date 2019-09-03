@@ -36,6 +36,7 @@ module.exports = [
 
               { text: 'Native Group',items: [  
                     { text: 'Flutter', link: '/h5/flutter/' },
+                    { text: 'SwiftUI', link: '/h5/swiftui/' },
                     { text: 'React-native', link: '/h5/reactnative/' },
                     { text: 'Cordova', link: '/h5/cordova/' },
                     { text: 'Weex', link: '/h5/weex/' },

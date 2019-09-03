@@ -147,6 +147,9 @@ module.exports = {
         'flutter-first',
         'flutter-existing',
       ],
+        '/h5/swiftui/': [
+        '',
+      ],
 
       '/guide/':[
         '',
