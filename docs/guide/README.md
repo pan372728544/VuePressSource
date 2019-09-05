@@ -1,5 +1,35 @@
 # 快速上手
 
+## VuePress简单使用
+
+**1.添加导航**
+
+路径： VuePress/docs/.vuepress/nav/zh.js 
+
+**2.添加左侧边栏**
+
+路径： VuePress/docs/.vuepress/config.js
+
+3.本地预览
+
+```powershell
+yarn docs:dev
+```
+
+4.发布
+
+```powershell
+yarn docs:build
+```
+
+5.发布到github,执行如下
+
+```powershell
+VuePress/deploy.sh
+```
+
+
+
 ::: warning 注意
 请确保你的 Node.js 版本 >= 8。
 :::
