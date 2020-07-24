@@ -147,6 +147,9 @@ module.exports = {
         'flutter-first',
         'flutter-existing',
         'flutter-update',
+        'flutter-boost',
+        'flutter-boost1',
+        'flutter-boost2',
       ],
         '/h5/swiftui/': [
         '',
