@@ -17,7 +17,7 @@ $ cd /Users/userName/Desktop/boost
 ```
 创建flutter工程
 ``` javascript
-$ flutter create -template module flutter_module
+$ flutter create --template module flutter_module
 ```
 执行后
 ``` javascript

@@ -150,6 +150,7 @@ module.exports = {
         'flutter-boost',
         'flutter-boost1',
         'flutter-boost2',
+        'flutter-channel',
       ],
         '/h5/swiftui/': [
         '',
