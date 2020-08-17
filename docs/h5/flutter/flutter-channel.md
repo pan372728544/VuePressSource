@@ -1,6 +1,6 @@
 #  Flutter  - 原生交互
 
-##效果图
+## 效果图
 ![](./img/19.png)
 ![](./img/20.png)
 
@@ -18,7 +18,8 @@ BasicMessageChannel用于在Flutter和原生互相发送消息，一方给另一
 
 
 ## MethodChannel使用
-###一、原生调用Flutter
+### 一、原生调用Flutter
+
 1.1 原生端代码
 ``` swift
 // 原生调用MethodChannel
@@ -59,7 +60,8 @@ methChannel = FlutterMethodChannel(name: "com.aaa/MethodChannel", binaryMessenge
     }
   }
 ```
-###二、Flutter调用原生
+### 二、Flutter调用原生
+
 2.1 Flutter代码
 ``` dart
   // 创建methodChannel
@@ -111,7 +113,8 @@ methChannel = FlutterMethodChannel(name: "com.aaa/MethodChannel", binaryMessenge
 
 
 ## EventChannel使用
-###一、原生调用Flutter
+### 一、原生调用Flutter
+
 1.1 原生端代码
 ``` swift
 // 添加事件监听
@@ -163,7 +166,8 @@ let eventChannel  = FlutterEventChannel(name: "com.aaa/EventChannel", binaryMess
 
 
 ## BasicMessageChannel使用
-###一、原生调用Flutter
+### 一、原生调用Flutter
+
 1.1 原生端代码
 ``` swift
         // 原生调用BasicMessageChannel
@@ -191,7 +195,8 @@ let eventChannel  = FlutterEventChannel(name: "com.aaa/EventChannel", binaryMess
     return '收到native的消息$message';
   }
 ```
-###二、Flutter调用原生
+### 二、Flutter调用原生
+
 2.1 Flutter端代码
 ``` dart
 // BasicMessageChannel
